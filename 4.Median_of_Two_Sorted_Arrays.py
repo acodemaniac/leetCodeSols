@@ -13,5 +13,4 @@ class Solution(object):
             n = n1+n2
             return n/2.0
         else:
-            return L[(n-1)/2] 
-            
+            return L[(n-1)/2]
