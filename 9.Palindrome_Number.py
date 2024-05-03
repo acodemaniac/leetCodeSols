@@ -4,13 +4,13 @@ class Solution(object):
         :type x: int
         :rtype: bool
         """
-        #Approach 1
+        #Approach 0
 
         y = str(x)
         if y[::-1] == str(x):
             return True
         
-        #Approach 2
+        #Approach 1
         
         num = x
         rev = 0
@@ -20,3 +20,4 @@ class Solution(object):
             rev = rev * 10 + digit
             num //= 10
         return rev == original
+
