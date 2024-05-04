@@ -4,6 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        
         nums = set(nums)
         maxNumber = -1
         for num in nums:

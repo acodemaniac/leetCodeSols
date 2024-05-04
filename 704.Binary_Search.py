@@ -9,6 +9,7 @@ class Solution(object):
         #Comment the Approach which you dont require
 
         #Approach 0
+        
         if target in nums:
             return nums.index(target)
         else:

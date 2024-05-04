@@ -5,6 +5,7 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: float
         """
+        
         L = nums1 + nums2
         L.sort()
         n = len(L)

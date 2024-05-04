@@ -5,6 +5,7 @@ class Solution(object):
         :type ch: str
         :rtype: str
         """
+        
         reverse = ""
         for i in range(len(word)):
             if word[i] == ch:
